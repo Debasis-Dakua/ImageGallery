@@ -43,7 +43,7 @@ const ImageGallery = () => {
             <img
               key={image.id}
               src={image.small}
-              alt={`Gallery image ${image.id}`}
+              alt=""
               className="gallery-image"
               onClick={() => handleImageClick(image)}
             />
